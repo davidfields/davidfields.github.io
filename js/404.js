@@ -1,4 +1,4 @@
-// replaceURL("https://www.dmfields.com/404");
+replaceURL("https://www.dmfields.com/404");
 
 $(document).ready(function () {
     setup404Page();
