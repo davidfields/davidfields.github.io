@@ -1,0 +1,120 @@
+body {
+    background-color: darkslategray;
+    font-family: 'Ubuntu Mono';
+}
+
+a {
+    text-decoration: none;
+}
+
+.title-bar {
+    background-color: darkgray;
+    position: fixed;
+    bottom: 85%;
+    left: 22%;
+    right: 22%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.title-bar p {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+
+#terminal {
+    background-color: black;
+    position: fixed;
+    top: 15%;
+    left: 22%;
+    right: 22%;
+    min-height: 70%;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.cmd,
+.return {
+    margin-bottom: 20px;
+}
+
+.return {
+    margin-left: 22px;
+}
+
+.return ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.return ul li {
+    margin-bottom: 10px;
+}
+
+.cmd p,
+.return p,
+.return ul li {
+    color: lightsteelblue;
+    font-size: 24px;
+}
+
+.cmd p a,
+.cmd p a:visited,
+.return p a,
+.return p a:visited,
+.return ul li a,
+.return ul li a:visited {
+    color: darkcyan;
+}
+
+.cmd p a:hover,
+.return p a:hover,
+.return ul li a:hover {
+    color: lightsteelblue;
+    font-weight: 600;
+}
+
+#cmd-home a:hover,
+#return-link1 a:hover,
+#return-link2 a:hover,
+#return-link3 a:hover {
+    color: lightsteelblue;
+    font-weight: 600;
+}
+
+.dollar {
+    color: darkgoldenrod;
+}
+
+.greater-than {
+    color: red;
+}
+
+#r-1,
+#r-2,
+#r-3 {
+    color: red;
+}
+
+#copyright-notice {
+    position: fixed;
+    width: 100%;
+    bottom: 1%;
+    text-align: center;
+}
+
+#copyright-notice p,
+#copyright-notice a,
+#copyright-notice a:visited {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+#copyright-notice a:hover {
+    color: black;
+    font-weight: bold;
+}
